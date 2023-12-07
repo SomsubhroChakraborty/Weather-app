@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head_1 {
+  font-size: 3rem;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bruno Ace', cursive;
+  text-align: center;
+  font-size: 45px;
+}
+
+.card {
+  background: linear-gradient(135deg, #0810f7, #1a90ff, #fbf9f9);
+  color: #fff;
+  margin: 37px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  height: 30rem;
+  max-width: 43rem;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 27px;
+}
+
+.inp {
+  margin: 23px 23px;
+  padding: 12px 34px;
+  border-radius: 25px;
+  outline: none;
+}
+
+.btn {
+  padding: 9px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.wind {
+}
+
+.pc {
+  display: flex;
+  gap: 17px;
+}
+
+.wind_2 {
+  display: flex;
+  gap: 17px;
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    height: 30rem;
+  }
+  .weather {
+    flex-direction: column;
+  }
+  .wind_2 {
+    margin-top: 8px;
+  }
+}
